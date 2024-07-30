@@ -19,4 +19,31 @@
     width: 50%;
     background-color: red;
     border: solid 2px black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+.lado2 > :nth-child(1){
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+.titulo{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.med{
+    width: 200px;
+    height: 100px;
+    margin-top: 0%;
+    background-color: blueviolet;
+    border-radius: 0 0 100px 100px;
+    display: flex;
+    margin: auto;
+    margin-top: 0;  
 }
